@@ -1,0 +1,19 @@
+{
+  "name": "pullr",
+  "version": "1.0.0",
+  "description": "Pull request of marvel characters information ",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenJakob/marvel.git"
+  },
+  "author": "Alen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenJakob/marvel/issues"
+  },
+  "homepage": "https://github.com/AlenJakob/marvel#readme"
+}

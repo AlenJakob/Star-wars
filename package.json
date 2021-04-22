@@ -1,7 +1,7 @@
 {
-  "name": "Swapi",
+  "name": "marvel-app",
   "version": "1.0.0",
-  "description": "Swapi",
+  "description": "Marvel Characters App",
   "main": "app.js",
   "dependencies": {
     "axios": "^0.21.1",
@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "parcel watch index.html",
+    "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
   "repository": {

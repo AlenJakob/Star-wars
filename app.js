@@ -18,7 +18,6 @@ const getStarshipList = async (url) => {
 
 const renderContent = async () => {
   const list = await getStarshipList(END_POINT);
-
   addToDom(list, document.querySelector("#app"));
 };
 

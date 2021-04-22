@@ -1,0 +1,25 @@
+{
+  "name": "marvel-app",
+  "version": "1.0.0",
+  "description": "Marvel Characters App",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlenJakob/marvel.git"
+  },
+  "author": "Alen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlenJakob/marvel/issues"
+  },
+  "homepage": "https://github.com/AlenJakob/marvel#readme"
+}

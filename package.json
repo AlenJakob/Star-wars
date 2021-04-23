@@ -7,10 +7,8 @@
     "axios": "^0.21.1",
     "parcel-bundler": "^1.12.5"
   },
-  "devDependencies": {},
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel serve index.html"
   },
   "repository": {
     "type": "git",

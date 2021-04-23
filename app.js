@@ -1,6 +1,6 @@
 import axios from "axios";
 import "regenerator-runtime/runtime";
-const END_POINT = "https://swapi.dev/api/starships/";
+const starships = "https://swapi.dev/api/planets/";
 const people = "https://swapi.dev/api/people/";
 const api = "https://swapi.dev/api/";
 
@@ -12,9 +12,9 @@ function addToDom(list, dom) {
 const getList = async (url) => {
   try {
     const { data } = await axios.get(url);
-    console.log(data)
+    console.log(data.results);
     // console.log(  data.results ? true : false);
-    
+
     return data.results;
   } catch (err) {
     return err;
@@ -29,5 +29,5 @@ const renderContent = async (url) => {
 };
 
 // renderContent(END_POINT);
-renderContent(api);
-renderContent(people);
+// renderContent(api);
+renderContent(starships);

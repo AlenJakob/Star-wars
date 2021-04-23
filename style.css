@@ -15,3 +15,13 @@
 li {
   list-style: none;
 }
+.box {
+  display: flex;
+}
+
+.view {
+  padding: 1rem;
+  margin: 1rem;
+  flex: 1;
+  border: 1px solid rgb(102, 40, 40);
+}

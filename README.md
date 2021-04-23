@@ -1,2 +1,1 @@
-# marvel
-Marvel Characters App
+# Star Wars

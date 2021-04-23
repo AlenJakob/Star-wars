@@ -1,7 +1,7 @@
 {
-  "name": "marvel-app",
+  "name": "Star-wars",
   "version": "1.0.0",
-  "description": "Marvel Characters App",
+  "description": "Star Wars App",
   "main": "app.js",
   "dependencies": {
     "axios": "^0.21.1",

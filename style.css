@@ -1,0 +1,17 @@
+.button {
+  border: 1px solid grey;
+  max-width: 200px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+.button:hover {
+  background: rgba(0, 100, 0, 0.1);
+}
+.button:active {
+  background: rgba(0, 200, 0, 0.1);
+}
+li {
+  list-style: none;
+}
